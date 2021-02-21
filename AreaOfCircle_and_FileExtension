@@ -1,0 +1,29 @@
+'''
+To write a program which accepts the radius of 
+a circle from the user and computes its area.
+'''
+
+radius=float(input("Input the radius of the circle:"))
+area=22/7*radius*radius
+print("The area of circle with radius 1.1 is:\n",area)
+
+
+
+'''
+To write a program which accepts the filename
+from the user and print its extension
+'''
+
+filename=input("Input the filename:")
+fileext=filename.split(".")
+print("The extension of the file is:")
+if(fileext[-1]=='py'):
+  print("python")
+elif(fileext[-1]=='java'):
+  print("java")
+elif(fileext[-1]=='c'):
+  print("c")
+elif(fileext[-1]=='cpp'):
+  print("c++")
+else:
+  print("Invalid extension")
